@@ -48,7 +48,7 @@
   #define SPI_MISO 3
   #define SPI_SCK 1
 
-#elif defined(__AVR_ATmega328P__)
+#elif defined(__AVR_ATmega328P__) || defined(__AVR_ATmega328PB__)
   #define IV_REG MCUCR
 
   #define SPI_DDR  DDRB

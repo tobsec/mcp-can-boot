@@ -29,6 +29,7 @@ For controlling the MCP2515 a modified version of the [Arduino MCP2515 CAN inter
 
 * [ATmega32](http://ww1.microchip.com/downloads/en/devicedoc/doc2503.pdf)
 * [ATmega328P](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
+* [ATmega328PB](https://ww1.microchip.com/downloads/en/DeviceDoc/40001906A.pdf)
 * [ATmega32U4](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
 * [ATmega64](http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2490-8-bit-avr-microcontroller-atmega64-l_datasheet.pdf)
 * [ATmega644P](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42744-ATmega644P_Datasheet.pdf)
@@ -360,6 +361,10 @@ Additionally a *start app* command may be send at any time by the flash applicat
 ![Communication example](./doc/flash-sequence.svg)
 
 ## Changelog
+
+## 1.4.1 (2024-08-12)
+
+* Added support for _ATmega328PB_ 
 
 ## 1.4.0 (2023-06-12)
 
