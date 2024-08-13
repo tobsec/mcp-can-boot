@@ -394,4 +394,4 @@ Additionally a *start app* command may be send at any time by the flash applicat
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Copyright (C) 2020-2023 Peter Müller <peter@crycode.de> [https://crycode.de](https://crycode.de)
+Copyright (C) 2020-2024 Peter Müller <peter@crycode.de> [https://crycode.de](https://crycode.de)
