@@ -70,7 +70,7 @@
  * Clock speed of the MCP2515 CAN controller.
  * MCP_8MHZ, MCP_16MHZ or MCP_20MHZ
  */
-#define MCP_CLOCK MCP_8MHZ
+// #define MCP_CLOCK MCP_8MHZ
 
 /**
  * Optional definition of a custom CS (chip select) pin for the MCP2515.
