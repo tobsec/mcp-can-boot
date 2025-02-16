@@ -150,6 +150,10 @@ int main () {
     mcp2515.setBitrate(CAN_KBPS, MCP_CLOCK);
   #endif
 
+  #if defined MCP_CLKOUT_ENABLE
+    mcp2515.setClkOut(CLKOUT_DIV2);
+  #endif
+
   // set mcp2515 filter to accept CAN_ID_REMOTE_TO_MCU only
   #if CAN_EFF
     mcp2515.setFilterMask(MCP2515::MASK0, true, CAN_EFF_MASK);
